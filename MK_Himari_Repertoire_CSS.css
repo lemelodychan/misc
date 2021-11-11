@@ -7,10 +7,10 @@ titre{
     font-size: 24px;
 }
 span.headline{
-    display: inline-block;
-    font-size: 12px;
-    line-height: 18px;
-    margin-bottom: 8px;
+    display: inline-block!important;
+    font-size: 12px!important;
+    line-height: 18px!important;
+    margin-bottom: 8px!important;
 }
 
 sstitre{
@@ -22,15 +22,15 @@ sstitre{
     color: var(--co1);
 }
 span.sst-small{
-    font-size: 10px;
-    line-height: normal;
+    font-size: 10px!important;
+    line-height: normal!important;
     color:  #666666!important;
 }
 
 blockquote.blckqt{
-    background: var(--mid);
-    color: #666;
-    padding: 8px 16px 16px 16px;
+    background: var(--mid)!important;
+    color: #666!important;
+    padding: 8px 16px 16px 16px!important;
 }
 
 moodboard fieldset{
@@ -54,7 +54,7 @@ haiku{
 }
 
 .featured{
-    width: 100%;
+    width: 100%!important;
 }
 
 
