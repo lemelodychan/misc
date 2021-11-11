@@ -1,0 +1,142 @@
+/* --- GENERAL ---*/
+bg1, bg2{
+    display:inline-block;
+    margin-bottom:4px;
+}
+titre{
+    font-size: 24px;
+}
+titre .headline{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+
+sstitre{
+    text-align: center!important;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 4px!important;
+    text-transform: lowercase;
+    color: var(--co1);
+}
+sstitre .small{
+    font-size: 10px;
+    line-height: normal;
+    color:  #666666!important;
+}
+
+moodboard fieldset{
+    border: 1px solid #666666;
+    padding: 8px 12px;
+}
+moodboard legend{
+    color: #999999;
+    letter-spacing: 1px;
+    padding: 0px 8px;
+}
+
+haiku{
+    color: var(--co1);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: 'playfair display', 'ヒラギノ明朝 ProN' , 'Hiragino Mincho ProN' , '游明朝','游明朝体',YuMincho,'Yu Mincho' , 'ＭＳ 明朝' , 'MS Mincho' , HiraMinProN-W3 , 'TakaoEx明朝' , TakaoExMincho , 'MotoyaLCedar' , 'Droid Sans Japanese' , serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 48px;
+}
+
+img.featured{
+    width: 100%;
+}
+
+
+/* --- N&B FILTER ---*/
+.nb{
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition-property: filter, opacity;
+    transition-duration: 0.5s;
+}
+
+.nb:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+/* --- HIMARI'S ROOM ---*/
+.room{
+    position: relative;
+    display: block;
+    width: 510px;
+    height: 380px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.day{
+    position: absolute;
+    z-index: 3;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.room:hover .day{ opacity: 0; }
+.night{
+    position: absolute;
+    z-index: 2;
+}
+
+/* --- FACTS CHRONO STYLING ---*/
+t8.facts1 {
+    display: inline-block;
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    border: var(--co1) solid 1px;
+    border-radius: 12px;
+}
+
+t8.facts2 {
+    display: inline-block;
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    border: var(--co2) solid 1px;
+    border-radius: 12px;
+}
+
+/* --- LIENS ---*/
+.lien-left{
+    display: inline-block;
+    width: calc(50% - 8px);
+    margin-right: 8px;
+}
+.lien-right{
+    display: inline-block;
+    width: calc(50% - 8px);
+    margin-left: 8px;
+}
+
+img.lien{
+    width: 100%;
+    border-top: 4px var(--clair) solid;
+    border-bottom: 4px var(--clair) solid;
+    margin-bottom: 4px;
+}
+.lien-desc{
+    height: 100px;
+    margin-top: 8px;
+    padding-right: 8px;
+    overflow: auto;
+}
+
+
+/* --- RP ---*/
+.termine{
+    color: white;
+    border-color: white;
+    background-blend-mode: difference;
+    mix-blend-mode: difference;
+    background-color: transparent;
+}
