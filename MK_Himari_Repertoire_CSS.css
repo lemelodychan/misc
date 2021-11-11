@@ -35,6 +35,7 @@ blockquote.blckqt{
 
 a.toc:after{
     display: block;
+    content: " ";
     height: 1px;
     width: 100%;
     background: #444!important;
