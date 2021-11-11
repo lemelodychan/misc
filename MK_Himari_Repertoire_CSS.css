@@ -40,7 +40,7 @@ blockquote.blckqt{
     transition-property: background;
     transition-duration: 0.5s;
     background: rgba(255,255,255,0)!important;
-    padding: 4px 0px;
+    padding: 4px 0px 0px 0px;
 }
 .toc:hover{
     background: rgba(255,255,255,0.1)!important;
@@ -57,7 +57,7 @@ blockquote.blckqt{
     mix-blend-mode: difference;
     background-blend-mode: difference;
     background: rgba(255,255,255,0.1)!important;
-    margin: 4px 0px!important;
+    margin: 8px 0px 4px 0px!important;
 }
 .toc:last-child:after{
     display: none;
