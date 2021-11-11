@@ -33,10 +33,10 @@ blockquote.blckqt{
     padding: 8px 16px 16px 16px!important;
 }
 
-a.toc{
+.toc{
     display: block;
 }
-a.toc:after{
+.toc:after{
     display: block;
     content: " ";
     height: 1px;
@@ -44,7 +44,7 @@ a.toc:after{
     background: #444!important;
     margin: 8px 0px!important;
 }
-a.toc:last-child:after{
+.toc:last-child:after{
     display: none;
 }
 
