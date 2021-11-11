@@ -33,9 +33,15 @@ blockquote.blckqt{
     padding: 8px 16px 16px 16px!important;
 }
 
-.blckqt hr{
-    border-top: 1px solid #444!important;
+a.toc:after{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #444!important;
     margin: 8px 0px!important;
+}
+a.toc:last-child:after{
+    display: none;
 }
 
 moodboard fieldset{
