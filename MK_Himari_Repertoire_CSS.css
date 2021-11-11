@@ -124,7 +124,8 @@ t8.facts2 {
     margin-left: 8px;
 }
 
-.lien{
+img.lien{
+    text-align: center;
     width: 100%;
     border-top: 4px var(--clair) solid;
     border-bottom: 4px var(--clair) solid;
