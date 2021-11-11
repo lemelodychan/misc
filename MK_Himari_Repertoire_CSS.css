@@ -35,13 +35,20 @@ blockquote.blckqt{
 
 .toc{
     display: block;
+    font-family: 'Playfair Display';
+    text-transform: uppercase;
+}
+.toc i3{
+    margin-right: 8px!important;
 }
 .toc:after{
     display: block;
     content: " ";
     height: 1px;
     width: 100%;
-    background: #444!important;
+    mix-blend-mode: difference;
+    background-blend-mode: difference;
+    background: rgba(255,255,255,0.1)!important;
     margin: 8px 0px!important;
 }
 .toc:last-child:after{
