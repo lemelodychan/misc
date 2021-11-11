@@ -6,7 +6,7 @@ bg1, bg2{
 titre{
     font-size: 24px;
 }
-titre .headline{
+span.headline{
     display: inline-block;
     font-size: 12px;
     line-height: 18px;
@@ -21,13 +21,13 @@ sstitre{
     text-transform: lowercase;
     color: var(--co1);
 }
-sstitre .small{
+span.sst-small{
     font-size: 10px;
     line-height: normal;
     color:  #666666!important;
 }
 
-.blckqt{
+blockquote.blckqt{
     background: var(--mid);
     color: #666;
     padding: 8px 16px 16px 16px;
@@ -53,7 +53,7 @@ haiku{
     line-height: 48px;
 }
 
-img.featured{
+.featured{
     width: 100%;
 }
 
@@ -124,7 +124,7 @@ t8.facts2 {
     margin-left: 8px;
 }
 
-img.lien{
+.lien{
     width: 100%;
     border-top: 4px var(--clair) solid;
     border-bottom: 4px var(--clair) solid;
