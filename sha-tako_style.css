@@ -1,3 +1,19 @@
+a.tako-tab.msg_ong{
+    background-color: var(--mid);
+    border-top: 1px solid var(--mid);
+    border-bottom: 0px;
+}
+
+a.tako-tab.msg_ong.selected{
+    background-color: var(--clair);
+    border-top: 1px solid var(--co1);
+    border-bottom: 0px;
+}
+
+.msg_ong_contenu{
+    position: relative;
+}
+
 .tako-chara-profil{
     padding: 16px;
     background-color: var(--clair);
