@@ -1,3 +1,7 @@
+.tako-title{
+    letter-spacing: 0px!important;
+}
+
 .tako-subtitle{
     display: block;
     font-size: 12px;
@@ -14,7 +18,7 @@ a.tako-tab.msg_ong{
     border-bottom: 0px!important;
     margin-right: 8px;
     margin-bottom: 0px!important;
-    padding: 4px 8px;
+    padding: 4px 8px!important;
 }
 
 a.tako-tab.msg_ong.selected{
