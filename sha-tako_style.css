@@ -30,7 +30,28 @@ a.tako-tab.msg_ong.selected{
     height: auto;
 }
 
+.tako-name{
+    display: block;
+    font-family: 'kirimaru',serif;
+    color: var(--blanc);
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.tako-shortdes{
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: lowercase;
+    color: var(--co1);
+}
+
 .tako-desc{
+    margin-top: 8px;
     padding: 8px;
     height: 96px;
     overflow: auto;
