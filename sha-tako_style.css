@@ -1,0 +1,22 @@
+.tako-chara-profil{
+    padding: 16px;
+    background-color: var(--clair);
+    display: grid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    grid-template-columns: 2;
+    column-gap: 16px;
+}
+
+.tako-profil-img img{
+    width: 136px;
+    height: auto;
+}
+
+.tako-desc{
+    padding: 8px;
+    height: 96px;
+    overflow: auto;
+    background: var(--bg_topics);
+}
