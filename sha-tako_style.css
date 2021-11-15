@@ -21,7 +21,7 @@ a.tako-tab.msg_ong.selected{
     position: absolute;
     top: 0;
     left: 0;
-    grid-template-columns: 2;
+    grid-template-columns: 136px auto;
     column-gap: 16px;
 }
 
