@@ -1,13 +1,21 @@
+.tako-tabs.tabs-onglets{
+    text-align: left!important;
+}
+
 a.tako-tab.msg_ong{
     background-color: var(--mid)!important;
     border-top: 1px solid var(--mid)!important;
     border-bottom: 0px!important;
+    margin-right: 8px;
+    margin-bottom: 0px!important;
+    padding: 4px 8px;
 }
 
 a.tako-tab.msg_ong.selected{
     background-color: var(--clair)!important;
     border-top: 1px solid var(--co1)!important;
     border-bottom: 0px!important;
+    margin-bottom: 0px!important;
 }
 
 .msg_ong_contenu{
@@ -15,6 +23,7 @@ a.tako-tab.msg_ong.selected{
 }
 
 .tako-chara-profil{
+    width: calc(100% - 32px);
     padding: 16px;
     background-color: var(--clair);
     display: grid;
