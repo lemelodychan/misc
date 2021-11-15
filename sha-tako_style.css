@@ -1,3 +1,9 @@
+.tako-subtitle{
+    display: block;
+    font-size: 12px;
+    line-height: 24px;
+}
+
 .tako-tabs.tabs-onglets{
     text-align: left!important;
 }
