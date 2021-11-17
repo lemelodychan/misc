@@ -33,6 +33,21 @@ blockquote.blckqt{
     padding: 8px 16px 16px 16px!important;
 }
 
+a.textmsg{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+    position: absolute;
+}
+a.textmsg img{
+    width: 24px;
+    height: 24px;
+}
+a.textmsg:hover{
+    opacity: 0.7;
+}
+
 .toc{
     display: block;
     font-family: 'Playfair Display';
