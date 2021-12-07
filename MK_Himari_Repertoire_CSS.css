@@ -13,6 +13,13 @@ span.headline{
     margin-bottom: 8px!important;
 }
 
+credit{
+    font-size: 8px;
+    text-transform: uppercase;
+    color: var(--blanc);
+    letter-spacing: 1px;
+}
+
 sstitre{
     text-align: center!important;
     font-size: 12px;
