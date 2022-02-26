@@ -224,12 +224,12 @@ img.lien{
 .objet img{
     margin: auto;
     width: 80%;
-    filter: grayscale(100%);
+    filter: greyscale(100%);
     transition-duration: 0.5s;
     transition-property: filter;
 }
 .objet:hover img{
-    filter: grayscale(0%);
+    filter: greyscale(0%);
 }
 .objet i2{
     color: var(--blanc);
