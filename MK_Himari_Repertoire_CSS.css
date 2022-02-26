@@ -225,7 +225,7 @@ img.lien{
     color: var(--blanc);
     display: inline-block;
     text-align: left;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 .objet .obj-desc{
     text-align: justify;
