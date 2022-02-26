@@ -207,3 +207,14 @@ img.lien{
     mix-blend-mode: difference;
     background-color: transparent;
 }
+
+
+.inventaire{
+    display: flex;
+}
+.objet{
+    width: calc(33% - 16px);
+}
+.objet img{
+    width: 100%;
+}
