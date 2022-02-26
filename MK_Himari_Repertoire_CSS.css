@@ -234,4 +234,5 @@ img.lien{
     text-align: justify;
     height: 70px;
     overflow: auto;
+    padding: 4px 6px 0px 0px;
 }
