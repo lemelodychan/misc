@@ -216,6 +216,9 @@ img.lien{
 }
 .objet{
     text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.5);
 }
 .objet img{
     margin: auto;
