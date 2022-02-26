@@ -221,6 +221,14 @@ img.lien{
     margin: auto;
     width: 80%;
 }
+.objet i2{
+    color: var(--blanc);
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 4px;
+}
 .objet .obj-desc{
     text-align: left;
+    height: 100px;
+    overflow: auto;
 }
