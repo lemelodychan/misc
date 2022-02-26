@@ -210,11 +210,13 @@ img.lien{
 
 
 .inventaire{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8px;
 }
 .objet{
-    width: calc(33% - 16px);
 }
 .objet img{
-    width: 100%;
+    margin: auto;
+    width: 80%;
 }
