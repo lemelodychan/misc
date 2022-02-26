@@ -228,7 +228,7 @@ img.lien{
     margin-bottom: 4px;
 }
 .objet .obj-desc{
-    text-align: left;
+    text-align: justify;
     height: 100px;
     overflow: auto;
 }
