@@ -1,6 +1,6 @@
 /* COLOR SCHEME */
 .nfa_contract_container {
-  --color: yellow;
+  --color: var(--a1);
   
   --co: var(--color);
   --co2: var(--color);
