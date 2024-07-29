@@ -11,8 +11,6 @@ html[data-theme="dark"] .nfa_contract_container {
   --co2: #171614 !important;
 } 
 
-fire{ color: darkorange; font-weight: 500; }
-
 /* CONTAINER */
 .nfa_contract_container {
   margin: auto; 
