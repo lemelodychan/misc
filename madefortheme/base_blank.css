@@ -378,6 +378,7 @@ body#sce_smilies_body {
 /*** PAGINATIONS -------------------- ***/
 
 .pagination {}
+.pagination:empty { display: none; }
 
 /*lien unique vers les pages numérotées*/
 .pagination span a {
