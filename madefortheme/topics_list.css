@@ -29,6 +29,10 @@
   border: 1px solid rgba(255,255,255,0);
   display: flex;
   position: relative;
+  transition: var(--transi);
+}
+.topic-card:hover {
+  background: var(--neutral);
 }
 .topic-card.post_new {
   border: 1px solid var(--accentClr2);
@@ -203,17 +207,16 @@
 
 /* Conteneur sujet dans la liste */
 .topicslist_row {
-  background: var(--neutral);
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
+  background: var(--neutralDark);
+  border-radius: 8px;
+  padding: 0px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  gap: 0px;
   align-items: center;
+  transition: var(--transi);
 }
-.topicslist_row:last-child {
-  margin-bottom: 0;
+.topicslist_row:hover {
+  background: var(--neutral);
 }
 /* Image du sujet */
 .topicslist-img {
