@@ -1571,13 +1571,21 @@ a.groups:last-child {
 .buttons {
   background: var(--neutralDarker);
   padding: 1px 8px;
-  margin-right: 5px;
-  border-radius: 5px;
+  border-radius: 4px;
   opacity: 1;
+  position: relative;
+  overflow: hidden;
 }
-
 .buttons:hover {
   opacity: 0.7;
+}
+
+.buttons.primary {
+  background: linear-gradient(to right, var(--gradient-50));
+  transition: var(--transi);
+}
+.buttons.primary:hover {
+  background: linear-gradient(to right, var(--gradient-100));
 }
 
 /* BOUTONS : modérer les sujets de ce forum */
