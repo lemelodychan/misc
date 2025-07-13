@@ -1565,6 +1565,7 @@ a.groups:last-child {
   display: flex;
   align-items: center;
   gap: 4px;
+  transition: var(--transi);
 }
 
 .navigation_chain a:not(:first-of-type):before {
@@ -1582,6 +1583,9 @@ a.groups:last-child {
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
+}
+.navigation_chain a:hover {
+  color: var(--textAccentColor);
 }
 
 /* BOUTONS DE MESSAGE : Répondre, Nouveau,... ---* 
