@@ -111,7 +111,6 @@
 .topic-card .topic-title-container {
   height: auto;
   gap: 8px;
-  padding-top: 12px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -121,6 +120,11 @@
   width: 100%;
   max-width: 100%;
   white-space: normal;
+  height: 92px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  padding-top: 12px;
 }
 .topic-card h2.topic-title {
   font-family: var(--font-title);
