@@ -25,8 +25,8 @@
 .topic-card {
   padding: 16px;
   border-radius: 16px;
-  background: var(--neutral);
-  border: 1px solid rgba(255,255,255,0.1);
+  background: var(--neutralDark);
+  border: 1px solid rgba(255,255,255,0);
   display: flex;
   position: relative;
 }
@@ -110,6 +110,7 @@
 }
 .card-content .card-top .description {
   display: -webkit-box;
+  color: var(--textSubtle);
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
