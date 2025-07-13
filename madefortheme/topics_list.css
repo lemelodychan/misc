@@ -178,7 +178,7 @@
   line-height: 24px;
   font-family: var(--font-secondary);
   text-transform: uppercase;
-  background: rgba(var(--contrastLightRgb), 0.1);
+  background: rgba(var(--LightRgb), 0.1);
 }
 .card-footer .time {
   display: flex;
