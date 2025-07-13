@@ -482,6 +482,7 @@ summary {
   gap: 8px;
   align-items: center;
   width: 100%;
+  justify-content: space-between;
 }
 
 .links_bar a {
@@ -1567,7 +1568,8 @@ a.groups:last-child {
 
 /* BOUTONS DE MESSAGE : Répondre, Nouveau,... ---* 
  * (réutilisé dans l'affichage d'un sujet (viewtopic_body) et les MP (privmsgs_body) */
-.buttons {
+.buttons,
+.links_bar a {
   background: var(--neutralDark);
   padding: 0px 8px;
   border-radius: 4px;
