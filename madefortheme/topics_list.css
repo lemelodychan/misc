@@ -109,6 +109,7 @@
   overflow: hidden;
 }
 .topic-card .topic-title-container {
+  width: 100%;
   height: auto;
   gap: 8px;
   display: flex;
@@ -118,9 +119,9 @@
 }
 .topic-card .topictitle {
   width: 100%;
-  max-width: 100%;
+  max-width: 100% !important;
   white-space: normal;
-  height: 92px;
+  height: 96px;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
