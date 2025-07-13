@@ -135,7 +135,7 @@ h1.title-2 > span {
 /* Lien de renvoi haut/bas */
 .sidebar_bottom>a {
   padding: 5px 8px;
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   border-radius: 5px;
   text-align: center;
 }
@@ -166,7 +166,7 @@ h1.title-2 > span {
 }
 
 .color-scheme-toggle {
-  background-color: var(--neutralDark);
+  background-color: var(--neutralDarker);
   padding: 5px 8px;
   font-size: 36px;
   text-align: center;
@@ -242,7 +242,7 @@ input:is([type="text"], [type="password"], .inputbox),
 textarea {
   border: none;
   border-radius: 4px;
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   font-size: var(--normal-size);
   color: var(--contrastLight) !important;
   padding: 12px;
@@ -327,7 +327,7 @@ div.sceditor-toolbar {
 
 /* Conteneur des groupes d'outils */
 div.sceditor-group {
-  background: var(--neutralDark) !important;
+  background: var(--neutralDarker) !important;
   border-bottom: var(--border) !important;
 }
 
@@ -391,7 +391,7 @@ body#sce_smilies_body {
 
 /*lien actif : page sur laquelle vous vous trouvez */
 .pagination span strong {
-  background-color: var(--neutralDark);
+  background-color: var(--neutralDarker);
   border-radius: 3px;
   padding: 1px 4px;
 }
@@ -407,7 +407,7 @@ body#sce_smilies_body {
 
 /* Contenur général qui sert généralement de fond et/ou de contour*/
 .container {
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   padding: 24px;
   border-radius: 16px;
 }
@@ -416,7 +416,7 @@ body#sce_smilies_body {
 .separator {
   padding-bottom: 5px;
   margin-bottom: 5px;
-  border-bottom: 1px solid var(--neutralDark);
+  border-bottom: 1px solid var(--neutralDarker);
   clear: both;
   height: 1px;
   width: 100%;
@@ -447,7 +447,7 @@ summary {
   object-position: center;
   border-radius: 5px;
   margin-right: 10px;
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
 }
 
 /* Permet d'aligner un élément à droite ou à gauche */
@@ -502,7 +502,7 @@ summary {
 /* Lien spécial mis en avant */
 .specials_links a,
 a.specials_links {
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   padding: 2px 6px;
   border-radius: 5px;
 }
@@ -580,7 +580,7 @@ a.specials_links:empty {
   gap: 10px;
   align-items: start;
   background: var(--neutral);
-  border-left: 1px solid var(--neutralDark);
+  border-left: 1px solid var(--neutralDarker);
   padding: 15px;
   padding-top: 50px;
   opacity: 0;
@@ -600,7 +600,7 @@ a.specials_links:empty {
   width: 100%;
   overflow: auto;
   max-height: 100%;
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   padding: 10px;
   border-radius: 10px;
   -ms-overflow-style: none;
@@ -635,7 +635,7 @@ a.specials_links:empty {
   /* Bouton d'action */
   button {
     padding: 2px 10px;
-    background: var(--neutralDark);
+    background: var(--neutralDarker);
     border-radius: 5px;
 
     &:hover {
@@ -814,7 +814,7 @@ a.specials_links:empty {
   position: relative;
   display: grid;
   place-items: center;
-  background-color: var(--neutralDark);
+  background-color: var(--neutralDarker);
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -853,7 +853,7 @@ a.specials_links:empty {
 /* Avatar du compte connecté */
 .switcheroo__squircle.active,
 .switcheroo__squircle.active img {
-  outline-color: var(--neutralDark);
+  outline-color: var(--neutralDarker);
   cursor: default;
 }
 
@@ -1055,7 +1055,7 @@ a.specials_links:empty {
 
 /* Conteneur de la barre de nav */
 .navbar {
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   border-radius: 5px;
   margin-top: 10px;
   padding: 10px;
@@ -1245,7 +1245,7 @@ a.mainmenu img {
 }
 
 .forum > div:first-of-type {
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   height: 144px;
   border-radius: 16px;
   display: flex;
@@ -1303,7 +1303,7 @@ a.forumtitle {
 .forum-img {
   width: 70px;
   height: 70px;
-  background-color: var(--neutralDark);
+  background-color: var(--neutralDarker);
 }
 
 /*description du forum*/
@@ -1372,7 +1372,7 @@ a.forumtitle {
 }
 
 .forum_avatar img {
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   width: 24px;
   height: 24px;
   border-radius: 4px;
@@ -1451,7 +1451,7 @@ a.forumtitle {
 /*** QUI EST EN LIGNE -------------- ***/
 
 .qeel {
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   border-radius: 5px;
   padding: 10px;
   display: grid;
@@ -1487,7 +1487,7 @@ a.forumtitle {
 /* groupes*/
 a.groups {
   display: block;
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   border-radius: 5px;
   text-align: center;
   padding: 2px 0;
@@ -1568,7 +1568,7 @@ a.groups:last-child {
 /* BOUTONS DE MESSAGE : Répondre, Nouveau,... ---* 
  * (réutilisé dans l'affichage d'un sujet (viewtopic_body) et les MP (privmsgs_body) */
 .buttons {
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   padding: 1px 8px;
   margin-right: 5px;
   border-radius: 5px;
@@ -1586,7 +1586,7 @@ a.groups:last-child {
 }
 
 #moderation_forum_tools a {
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   border-radius: 5px;
   padding: 2px 8px;
   font-size: var(--normal-size);
@@ -1613,7 +1613,7 @@ a.groups:last-child {
   width: 30px;
   border-radius: 100%;
   margin-left: -8px;
-  border: 2px solid var(--neutralDark);
+  border: 2px solid var(--neutralDarker);
   background-size: cover;
   background-position: center;
 }
@@ -1657,7 +1657,7 @@ a.groups:last-child {
   display: grid;
   grid-template-rows: max-content auto;
   grid-template-columns: min-content 1fr;
-  border-bottom: 1px solid var(--neutralDark);
+  border-bottom: 1px solid var(--neutralDarker);
 }
 
 div.post_row:nth-of-type(2) {
@@ -1674,7 +1674,7 @@ div.post_row:last-of-type {
   padding: 10px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--neutralDark);
+  border-bottom: 1px solid var(--neutralDarker);
   width: 100%;
 }
 
@@ -1702,7 +1702,7 @@ ul.profile-icons li {
 
 /*hover d'un bouton d'édition*/
 ul.profile-icons li:hover {
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
 }
 
 /* BOUTON LIKE --- */
@@ -1718,7 +1718,7 @@ ul.profile-icons li:hover {
 .rep-button,
 .rep-button:active,
 .rep-button:focus {
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   color: var(--textColor);
   border: none;
   padding: 3px 5px;
@@ -1744,7 +1744,7 @@ button.rep-button .rep-nb {
 
 .post_profile {
   padding: 10px;
-  border-right: 1px solid var(--neutralDark);
+  border-right: 1px solid var(--neutralDarker);
 }
 
 .post_pseudo {
@@ -1802,7 +1802,7 @@ a.fa-mention {
   top: 25%;
   left: 25px;
   background-color: var(--neutral);
-  border: 1px solid var(--neutralDark);
+  border: 1px solid var(--neutralDarker);
   padding: 5px;
   border-radius: 5px;
   text-align: center;
@@ -1850,7 +1850,7 @@ a.fa-mention {
 
 .head_poll {
   padding: 10px;
-  border-bottom: 1px solid var(--neutralDark);
+  border-bottom: 1px solid var(--neutralDarker);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1863,7 +1863,7 @@ a.fa-mention {
 
 .poll_option {
   padding: 10px 20px 0 10px;
-  border-right: 1px solid var(--neutralDark);
+  border-right: 1px solid var(--neutralDarker);
   text-align: right;
 }
 
@@ -1876,7 +1876,7 @@ a.fa-mention {
 .poll_send {
   margin-left: 220px;
   padding: 20px 10px 20px 20px;
-  border-left: 1px solid var(--neutralDark);
+  border-left: 1px solid var(--neutralDarker);
 }
 
 .poll_vote:nth-child(2),
@@ -1907,7 +1907,7 @@ a.fa-mention {
 
 /* Contenu code, spoiler et hide*/
 .codebox dd {
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   border-radius: 5px;
   padding: 5px;
 }
@@ -2033,7 +2033,7 @@ blockquote cite a {
 /* Bouton "suivre le membre" */
 .followBtn {
   background: var(--neutral);
-  border: 1px solid var(--neutralDark);
+  border: 1px solid var(--neutralDarker);
   border-radius: 5px;
   font-weight: 600;
   margin: 0;
@@ -2245,7 +2245,7 @@ blockquote cite a {
 
 .message_infos {
   grid-column: 1 / span 2;
-  border-bottom: 1px solid var(--neutralDark);
+  border-bottom: 1px solid var(--neutralDarker);
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -2258,7 +2258,7 @@ blockquote cite a {
 
 .message_profil {
   padding: 10px;
-  border-right: 1px solid var(--neutralDark);
+  border-right: 1px solid var(--neutralDarker);
   text-align: center;
 }
 
@@ -2306,14 +2306,14 @@ blockquote cite a {
 
 /* Onglet selectionné */
 #tabs li.activetab {
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   border: var(--border);
   border-radius: 5px;
 }
 
 /* onglet au survol */
 #tabs li:hover {
-  background: var(--neutralDark);
+  background: var(--neutralDarker);
   border-radius: 5px;
   border: var(--border);
 }
