@@ -139,6 +139,7 @@
 #PA_lastpost {
   height: -webkit-fill-available;
   display: contents;
+  display: flex;
 }
 #PA_lastpost > .topic-card {
   background: transparent;
@@ -146,7 +147,11 @@
   padding: 8px 0;
   border: 0px;
   display: flex;
-  height: -webkit-fill-available;
+  height: auto;
+  align-self: flex-end;
+  justify-self: flex-end;
+  align-content: flex-end;
+  align-items: flex-end;
 }
 #PA_lastpost > .topic-card .card-content {
   display: flex;
@@ -155,6 +160,19 @@
   align-self: self-end;
   justify-content: flex-end;
 }
+#PA_lastpost > .topic-card .card-content .card-top {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#PA_lastpost > .topic-card .card-content .card-top > .author-avatar {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+#PA_lastpost > .topic-card .card-content .card-top > .author { display: none !important; }
 #PA_lastpost > .topic-card .description, 
 #PA_lastpost > .topic-card .card-footer .tag {
   display: none;
@@ -188,12 +206,18 @@
 #PA_lastpost > .topic-card .card-footer {
   padding: 0;
   border: 0;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
 }
 #PA_lastpost > .topic-card .card-footer .time {
   width: 100%;
   color: white;
   flex-direction: column;
   align-items: flex-start;
+}
+#PA_lastpost > .topic-card .card-footer .time > .lastpost-avatar {
+  display: none !important;
 }
 #PA_lastpost > .topic-card .card-footer .time * {
   line-height: 20px;
@@ -202,6 +226,9 @@
 #PA_lastpost > .topic-card .card-footer .time strong {
   font-weight: 600;
   font-family: var(--font);
+}
+#PA_lastpost > .topic-card .card-footer .time > .lastpost-infos i {
+  display: none;
 }
 
 
