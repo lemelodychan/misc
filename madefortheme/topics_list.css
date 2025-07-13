@@ -109,7 +109,8 @@
   overflow: hidden;
 }
 .topic-card .topic-title-container {
-  height: 92px;
+  height: auto;
+  gap: 8px;
   padding-top: 12px;
   display: flex;
   flex-wrap: wrap;
