@@ -178,6 +178,8 @@
   line-height: 24px;
   font-family: var(--font-secondary);
   text-transform: uppercase;
+  color: var(--textColorAccent);
+  border: var(--border-transparent);
   background: rgba(var(--LightRgb), 0.1);
 }
 .card-footer .time {
