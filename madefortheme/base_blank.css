@@ -1551,19 +1551,37 @@ a.groups:last-child {
 .navigation_chain {
   font-size: 0;
   /*retire les :: de séparation */
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .navigation_chain a {
-  font-size: initial;
-  /*rétablit la taille des liens*/
-  margin-right: 8px;
+  font-family: var(--font-secondary);
+  font-weight: normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--textColor);
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
-.navigation_chain a:before {
-  content: "›";
+.navigation_chain a:not(:first-of-type):before {
   /*symbole ou texte modifiable*/
-  font-size: var(--nomal-size);
-  margin-right: 3px;
+  content: "";
+  font-size: 12px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='m184 112l144 144l-144 144'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
 }
 
 /* BOUTONS DE MESSAGE : Répondre, Nouveau,... ---* 
@@ -1592,6 +1610,8 @@ a.groups:last-child {
   transition: var(--transi);
 }
 .buttons.primary:hover {
+  opacity: 1;
+  color: var(--textColorAccent);
   background: linear-gradient(to right, var(--gradient-100));
 }
 
