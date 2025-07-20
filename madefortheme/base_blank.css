@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     gap: 64px;
-    background: var(--neutral);
+    background: var(--neutralDarker);
     border-radius: 16px;
   }
   
@@ -513,7 +513,7 @@
     gap: 8px;
     align-items: center;
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
   
   .links_bar a {
@@ -1190,6 +1190,7 @@
     justify-items: center;
     height: 24px;
     width: fit-content;
+    color: var(--textSubtle);
   }
   .category-tabs button.tab-btn:before {
     transition: all ease 0.3s;
@@ -1205,6 +1206,9 @@
     z-index: 1;
     position: absolute;
     left: calc((100% - 88px) / 2);
+  }
+  .category-tabs button.tab-btn.active {
+    color: var(--textColorAccent);
   }
   .category-tabs button.tab-btn.active:before,
   .category-tabs button.tab-btn:not(.active):hover:before {
@@ -1227,6 +1231,8 @@
     height: 1px;
     width: -webkit-fill-available;
     background: var(--contrastLight);
+    opacity: 0.1;
+    border: 0px !important;
   }
   
   
@@ -1235,10 +1241,10 @@
   /*** FORUMS -------------------- ***/
   
   .category {
-    display: grid;
+    display: flex;
     grid-template-columns: 44px auto;
     grid-gap: 32px;
-    padding: 0 16px;
+    padding: 0;
   }
   
   /* Titre d'une catégorie */
