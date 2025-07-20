@@ -1329,7 +1329,7 @@
   /* titre d'un forum */
   a.forumtitle {
     font-size: 32px;
-    line-height: 40px;
+    line-height: 36px;
     font-weight: 400;
     font-family: var(--font-title);
   }
@@ -1413,6 +1413,7 @@
     border-radius: 4px;
     object-fit: cover;
     object-position: center;
+    border: var(--border-transparent);
   }
   
   /* dernier message*/
@@ -1458,7 +1459,7 @@
     font-size: 0;
     /*permet de retirer la virgule*/
     padding: 8px;
-    border: var(--border);
+    border: var(--border-transparent);
     border-radius: 8px;
     display: flex;
     flex-direction: row;
@@ -1473,7 +1474,7 @@
   #subforum a {
     display: block;
     padding: 0 6px;
-    background: rgba(var(--contrastLightRgb), 0.1);
+    background: var(--neutral);
     border-radius: 4px;
     font-weight: 400;
     font-size: 12px;
