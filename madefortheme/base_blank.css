@@ -1261,7 +1261,7 @@
   .forums {
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 24px;
   }
   
   /* conteneur d'un forum*/
@@ -1270,6 +1270,9 @@
     grid-template-columns: 240px auto;
     grid-gap: 32px;
     position: relative;
+    padding: 24px;
+    background: var(--neutralDark);
+    border-radius: 12px;
   }
   
   .forum:last-child {
@@ -1364,8 +1367,8 @@
   .forum_desc img {
     position: absolute;
     width: 240px;
-    top: 0;
-    left: 0;
+    top: 24px;
+    left: 24px;
     z-index: 2;
     border-radius: 8px;
     transition: all 0.3s ease;
