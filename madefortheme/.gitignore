@@ -1,6 +1,7 @@
 # Forumotion template files that shouldn't be tracked
 templates/
 FA_css.css
+javascript/
 
 # Editor/IDE files
 .cursor/
