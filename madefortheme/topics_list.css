@@ -479,7 +479,8 @@
   justify-content: space-between;
 }
 
-.topic-card[topic-type="folder_sticky"] h2.topic-title {
+.topic-card[topic-type="folder_sticky"] h2.topic-title,
+.topic-card[topic-type="folder_announce"] h2.topic-title {
   font-family: var(--font-secondary);
   font-weight: normal;
   font-size: 16px;
