@@ -633,9 +633,7 @@
   overflow: hidden;
   grid-column: 2 / 3;
 }
-.card-content .card-top .description:empty,
-.topic-card[topic-type="folder_sticky"] .card-content .card-top .description.excerpt,
-.topic-card[topic-type="folder_announce"] .card-content .card-top .description.excerpt { display: none !important; }
+.card-content .card-top .description:empty { display: none !important; }
 
 .topic-card .card-content .card-top > .topic-bottom {
   display: flex;
