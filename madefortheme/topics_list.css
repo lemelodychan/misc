@@ -517,11 +517,7 @@
 .topic-card[topic-type="folder_sticky"] .card-content > .card-top > .author-avatar,
 .topic-card[topic-type="folder_announce"] .card-content > .card-top > .author-avatar,
 .topic-card[topic-type="folder_sticky"] .time .lastpost-info > span:not(.author-name) > .grid-par,
-.topic-card[topic-type="folder_announce"] .time .lastpost-info > span:not(.author-name) > .grid-par,
-.topic-card[topic-type="folder_sticky"] .description, 
-.topic-card[topic-type="folder_announce"] .description,
-.topic-card[topic-type="folder_sticky"] .card-footer .tag, 
-.topic-card[topic-type="folder_announce"] .card-footer .tag {
+.topic-card[topic-type="folder_announce"] .time .lastpost-info > span:not(.author-name) > .grid-par {
   display: none;
 }
 
