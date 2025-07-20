@@ -1293,6 +1293,7 @@
     font-weight: normal;
     text-transform: uppercase;
     color: var(--textColorAccent);
+    font-family: var(--font-secondary);
   }
   
   .forum:last-child {
