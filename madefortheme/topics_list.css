@@ -560,6 +560,15 @@
   padding-top: 12px;
 }
 
+/* Override for sticky and announce topic types */
+.topic-card[topic-type="folder_sticky"] .topictitle,
+.topic-card[topic-type="folder_announce"] .topictitle {
+  height: auto;
+  padding-top: 0;
+  gap: 8px;
+  align-content: center;
+}
+
 .topic-card h2.topic-title {
   font-family: var(--font-title);
   color: var(--contrastLight);
