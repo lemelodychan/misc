@@ -333,6 +333,10 @@
   height: 24px;
 }
 
+.topicslist-pagination {
+  display: flex;
+  width: fit-content;
+}
 .topicslist_row .topicslist_infos .topiclist_bottom .pagination span {
   display: flex;
   gap: 4px;
@@ -374,6 +378,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
+  height: 24px;
   font-family: var(--font-secondary);
   text-transform: uppercase;
   color: var(--textColorAccent);
@@ -520,8 +525,8 @@
 .topic-card .time > .lastpost-avatar,
 .topic-card .card-content .card-top > .author,
 .topic-card .time .lastpost-info > span.author-name > .grid-par,
-.topic-card[topic-type="folder_sticky"] .topic-title-container > .author,
-.topic-card[topic-type="folder_announce"] .topic-title-container > .author,
+.topic-card[topic-type="folder_sticky"] .topic-title-container > .topic-bottom > .author,
+.topic-card[topic-type="folder_announce"] .topic-title-container > .topic-bottom > .author,
 .topic-card[topic-type="folder_sticky"] .card-content > .card-top > .author-avatar,
 .topic-card[topic-type="folder_announce"] .card-content > .card-top > .author-avatar,
 .topic-card[topic-type="folder_sticky"] .time .lastpost-info > span:not(.author-name) > .grid-par,
@@ -532,8 +537,8 @@
 /* Show specific elements for sticky/announce topics */
 .topic-card[topic-type="folder_sticky"] .time > .lastpost-avatar, 
 .topic-card[topic-type="folder_announce"] .time > .lastpost-avatar,
-.topic-card[topic-type="folder_sticky"] .card-content .card-top > .author,
-.topic-card[topic-type="folder_announce"] .card-content .card-top > .author,
+.topic-card[topic-type="folder_sticky"] .card-content .card-top > .topic-bottom >.author,
+.topic-card[topic-type="folder_announce"] .card-content .card-top > .topic-bottom >.author,
 .topic-card[topic-type="folder_sticky"] .time .lastpost-info > span.author-name > .grid-par,
 .topic-card[topic-type="folder_announce"] .time .lastpost-info > span.author-name > .grid-par {
   display: inline-block !important;
@@ -591,7 +596,7 @@
 .card-content .card-top {
   width: 100%;
   display: grid;
-  grid-gap: 16px;
+  grid-gap: 8px 16px;
   grid-template-columns: 96px auto;
   grid-template-rows: auto auto;
 }
@@ -625,7 +630,19 @@
   overflow: hidden;
 }
 
-.topic-card .card-content .card-top > .author {
+.topic-card .card-content .card-top > .topic-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.topic-card:not([topic-type="folder_sticky"]) .card-content .card-top > .topic-bottom,
+.topic-card:not([topic-type="folder_announce"]) .card-content .card-top > .topic-bottom {
+  grid-column: 2 / 3;
+}
+
+.topic-card .card-content .card-top > .topic-bottom > .author {
   color: var(--textColorAccent);
 }
 
