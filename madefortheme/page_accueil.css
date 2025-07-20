@@ -175,7 +175,8 @@
 }
 #PA_lastpost > .topic-card .card-content .card-top > .author { display: none !important; }
 #PA_lastpost > .topic-card .description, 
-#PA_lastpost > .topic-card .card-footer .tag {
+#PA_lastpost > .topic-card .card-footer .tag,
+#PA_lastpost > .topic-card .topic-bottom {
   display: none;
 }
 #PA_lastpost > .topic-card .topictitle:before {
@@ -281,14 +282,14 @@
   max-width: 720px;
   margin: auto;
   transform: scale(0);
-  opacity 0; 
+  opacity: 0; 
   transform-origin: center;
   transition: all 0.3s ease;
   animation: popIn 0.3s ease forwards 0.15s;
 }
 @keyframes popIn {
-  0% { transform: scale(0); opacity 0; }
-  100% { transform: scale(1); opacity 1;  }
+  0% { transform: scale(0); opacity: 0; }
+  100% { transform: scale(1); opacity: 1;  }
 }
 
 #modal-body > a.custom-title-link {
