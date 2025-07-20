@@ -211,6 +211,7 @@
   border-radius: 8px;
   padding: 0px;
   display: grid;
+  overflow: hidden;
   grid-template-columns: auto 320px;
   gap: 0px;
   align-items: center;
