@@ -408,8 +408,11 @@ body#sce_smilies_body {
   align-content: center;
   justify-content: center;
 }
+.pag-img > img { display: none; }
+
 .page-topic span a:last-child:after,
 .pag-img:after {
+  content: "";
   display: inline-block;
   width: 20px;
   height: 20px;
