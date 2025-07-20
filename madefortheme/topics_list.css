@@ -238,11 +238,12 @@
   max-width: 100%;
 }
 .topictitle > span {
-  display: inline-block;
   overflow: hidden;
   max-width: 100%;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
 }
 
 /* icône de type de message ( exemple : -18 ans, sujet résolu, ... ) */
