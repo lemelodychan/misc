@@ -72,7 +72,7 @@
 
 /* ===== FORUM DESCRIPTION ===== */
 .forum-page_desc {
-  margin: 0 0 20px;
+  margin: 0;
   padding: 16px;
   background: var(--neutralDark);
   border-radius: 8px;
