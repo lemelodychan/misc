@@ -1,0 +1,73 @@
+.newsletter {
+    position: relative;
+    border-radius: 16px;
+    background: var(--neutralDark);
+  }
+  .newsletter > div { 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .newsletter:before, .newsletter:after,
+  .newsletter > div:before, .newsletter > div:after{
+    display: inline-block;
+    content: "";
+    opacity: 0.3;
+    width: 20px;
+    height: 20px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 12q9 1 10 10q1-9 10-10q-9-1-10-10q-1 9-10 10'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    position: absolute;
+  }
+  .newsletter:before {
+    top: 12px;
+    left: 12px;
+  }
+  .newsletter:after {
+    top: 12px;
+    right: 12px;
+  }
+  .newsletter > div:before {
+    bottom: 12px;
+    left: 12px;
+  }
+  .newsletter > div:after {
+    bottom: 12px;
+    right: 12px;
+  }
+  .newsletter > div > div.titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    font-weight: normal;
+    padding: 44px 44px 24px 44px;
+    color: white;
+  }
+  .newsletter > div > div.titre > span:first-of-type {
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  .newsletter > div > div.titre > span:last-of-type {
+    font-family: var(--font-title);
+    font-size: 32px;
+    font-weight: normal;
+  }
+  .newsletter > div > div.divider {
+    padding: 0 44px;
+  }
+  .newsletter > div > div.content {
+    background: transparent !important;
+    padding: 44px;
+    font-size: 14px;
+    line-height: 24px;
+  } 
