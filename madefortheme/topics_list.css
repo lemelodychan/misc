@@ -210,7 +210,8 @@
   background: var(--neutralDark);
   border-radius: 8px;
   padding: 0px;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 320px;
   gap: 0px;
   align-items: center;
   transition: var(--transi);
@@ -233,12 +234,15 @@
 .topictitle {
   font-size: var(--medium-size);
   /* permet de raccourir les titres trop long ainsi : "Titre du suj..." */
-  overflow: hidden;
-  text-overflow: ellipsis;
   display: inline-block;
-  max-width: 430px;
+  max-width: 100%;
+}
+.topictitle > span {
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis;
   white-space: nowrap;
-  vertical-align: bottom;
 }
 
 /* icône de type de message ( exemple : -18 ans, sujet résolu, ... ) */
