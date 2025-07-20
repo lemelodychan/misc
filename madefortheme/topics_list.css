@@ -524,9 +524,10 @@
 /* Hide elements for sticky/announce topics */
 .topic-card .time > .lastpost-avatar,
 .topic-card .card-content .card-top > .author,
+.topic-card .card-content .card-top > .topic-bottom > .author,
 .topic-card .time .lastpost-info > span.author-name > .grid-par,
-.topic-card[topic-type="folder_sticky"] .topic-title-container > .topic-bottom > .author,
-.topic-card[topic-type="folder_announce"] .topic-title-container > .topic-bottom > .author,
+.topic-card[topic-type="folder_sticky"] .topic-title-container > .author,
+.topic-card[topic-type="folder_announce"] .topic-title-container > .author,
 .topic-card[topic-type="folder_sticky"] .card-content > .card-top > .author-avatar,
 .topic-card[topic-type="folder_announce"] .card-content > .card-top > .author-avatar,
 .topic-card[topic-type="folder_sticky"] .time .lastpost-info > span:not(.author-name) > .grid-par,
@@ -537,8 +538,8 @@
 /* Show specific elements for sticky/announce topics */
 .topic-card[topic-type="folder_sticky"] .time > .lastpost-avatar, 
 .topic-card[topic-type="folder_announce"] .time > .lastpost-avatar,
-.topic-card[topic-type="folder_sticky"] .card-content .card-top > .topic-bottom >.author,
-.topic-card[topic-type="folder_announce"] .card-content .card-top > .topic-bottom >.author,
+.topic-card[topic-type="folder_sticky"] .card-content .card-top > .topic-bottom > .author,
+.topic-card[topic-type="folder_announce"] .card-content .card-top > .topic-bottom > .author,
 .topic-card[topic-type="folder_sticky"] .time .lastpost-info > span.author-name > .grid-par,
 .topic-card[topic-type="folder_announce"] .time .lastpost-info > span.author-name > .grid-par {
   display: inline-block !important;
