@@ -241,9 +241,9 @@
   overflow: hidden;
   max-width: 100%;
   text-overflow: ellipsis;
-  display: -webkit-box;
+  display: -webkit-box !important;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 2;
 }
 
 /* icône de type de message ( exemple : -18 ans, sujet résolu, ... ) */
