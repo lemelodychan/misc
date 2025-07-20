@@ -698,6 +698,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
+  height: 24px;
   font-family: var(--font-secondary);
   text-transform: uppercase;
   color: var(--textColorAccent);
