@@ -127,6 +127,10 @@
   padding: 16px;
   width: 100%;
 }
+.topics_list > .forum_categories > .category > .forums > .forum[read-status="cat_new"]:before {
+  top: 16px;
+  right: 16px;
+}
 .topics_list > .forum_categories > .category > .forums > .forum > div:first-child {
   display: block;
   width: 96px;
