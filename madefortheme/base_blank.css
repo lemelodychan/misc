@@ -408,6 +408,7 @@ body#sce_smilies_body {
   align-content: center;
   justify-content: center;
   margin-left: -4px;
+  margin-right: 0px;
 }
 .pag-img > img { display: none; }
 
@@ -425,6 +426,12 @@ body#sce_smilies_body {
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
+}
+.page-topic span a:first-child,
+.pag-img:first-child {
+  transform: rotate(180deg);
+  margin-right: -4px;
+  margin-left: 0px;
 }
 
 /*** ------------------------------- ***/
