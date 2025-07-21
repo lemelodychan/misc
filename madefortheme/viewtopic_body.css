@@ -126,7 +126,16 @@
     flex-direction: column;
     gap: 16px;
   }
-
+  .post_avatar {
+    display: flex;
+    padding: 0 16px;
+  }
+  .post_userinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 16px;
+  }
   .post_contact {
     display: flex;
     width: calc(100% - 16px);
