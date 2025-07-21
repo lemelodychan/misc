@@ -52,11 +52,20 @@
 
   .post_row .post_footer {
     grid-column: 2 / 3;
-    padding: 16px;
+    padding: 0 24px;
+    display: flex;
+    width: 100%;
+    background: var(--neutralDark);
+    margin-bottom: 24px;
+    border-radius: 0 0 0 8px;
+  }
+  .post_row .post_footer > div {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    padding: 16px 0;
+    border-top: var(--border-transparent);
   }
   .post_date {
     flex-grow: 100;
