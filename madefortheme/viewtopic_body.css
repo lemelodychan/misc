@@ -224,6 +224,7 @@
     background: var(--neutralDark);
     border-radius: 8px 0 0 8px;
     margin-bottom: 24px;
+    height: fit-content;
   }
   .post_message > div:first-of-type {
     padding: 24px;
