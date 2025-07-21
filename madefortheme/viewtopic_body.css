@@ -5,7 +5,7 @@
     flex-direction: column;
     gap: 16px;
   }
-  
+
   .post_row {
     background: var(--neutral);
     display: grid;
@@ -121,12 +121,21 @@
   }
   
   .post_profile {
-    padding: 10px;
-    border-right: 1px solid var(--neutralDarker);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
   }
-  
-  .post_pseudo {
-    font-weight: bold;
+
+  .post_contact {
+    display: flex;
+    width: calc(100% - 16px);
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 16px 16px 24px 16px;
+    border-radius: 0 8px 8px 0;
+    align-items: center;
+    background: var(--neutralDark);
   }
   
   /* Lien "@" de mention */
