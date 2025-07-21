@@ -1,5 +1,10 @@
  /*** ------------------------------- ***/
   /*** SUJET ------------------------- ***/
+  .post_list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
   
   .post_row {
     background: var(--neutral);
@@ -11,7 +16,7 @@
     overflow: hidden;
   }
   
-  .post_details {
+.post_row .post_details {
     grid-column: 1 / span 2;
     padding: 16px;
     display: flex;
@@ -45,7 +50,14 @@
     gap: 8px;
   }
 
- 
+  .post_row .post_footer {
+    grid-column: 2 / 3;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
   .post_date {
     flex-grow: 100;
   }
@@ -76,8 +88,6 @@
   /* BOUTON LIKE --- */
   /* Conteneur du bouton like */
   .like_button {
-    float: right;
-    margin-left: 10px;
     flex-grow: 1;
     cursor: pointer;
   }
