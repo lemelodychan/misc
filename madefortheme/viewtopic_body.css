@@ -65,7 +65,6 @@
     border-top: var(--border-transparent);
   }
   .post_date {
-    flex-grow: 100;
   }
   
   /* BOUTONS D'EDITION DU MESSAGE --- */
@@ -223,7 +222,6 @@
   .post_message {
     background: var(--neutralDark);
     border-radius: 8px 0 0 8px;
-    margin-bottom: 24px;
     height: fit-content;
   }
   .post_message > div:first-of-type {
