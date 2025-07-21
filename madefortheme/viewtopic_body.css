@@ -55,9 +55,6 @@
     padding: 0 24px;
     display: flex;
     width: 100%;
-    background: var(--neutralDark);
-    margin-bottom: 24px;
-    border-radius: 0 0 0 8px;
   }
   .post_row .post_footer > div {
     display: flex;
@@ -224,9 +221,14 @@
   }
   
   .post_message {
-    padding: 25px;
+    background: var(--neutralDark);
+    border-radius: 8px 0 0 8px;
+    margin-bottom: 24px;
   }
-  
+  .post_message > div:first-of-type {
+    padding: 24px;
+  }
+
   /* REPONSE RAPIDE --- */
   /*supression de la mention "réponse rapide" */
   .quickreply div.h3 {
